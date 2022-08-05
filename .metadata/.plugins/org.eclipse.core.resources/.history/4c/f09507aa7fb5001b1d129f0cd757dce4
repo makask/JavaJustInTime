@@ -1,0 +1,5 @@
+// Representation of a container of balls for the lottery,
+// with a fixed size and zero or more balls in a certain order.
+public class BallContainer {
+
+}

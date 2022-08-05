@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;AgeNextYear&apos; to &apos;AgeNextYearWithArguments&apos;&#x0D;&#x0A;- Original project: &apos;Ch03-Sec04-Book-Example&apos;&#x0D;&#x0A;- Original element: &apos;AgeNextYear&apos;&#x0D;&#x0A;- Renamed element: &apos;AgeNextYearWithArguments&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AgeNextYear&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{AgeNextYear.java[AgeNextYear" matchStrategy="1" name="AgeNextYearWithArguments" qualified="false" references="true" similarDeclarations="false" stamp="1618499367994" textual="false" version="1.0"/>
+</session>

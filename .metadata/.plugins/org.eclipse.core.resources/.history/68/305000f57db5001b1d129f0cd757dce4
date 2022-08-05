@@ -1,0 +1,7 @@
+import java.awt.Color;
+
+// Representation of a lotery ball, comprising colour and value.
+public class Ball 
+{
+	// The numeric value of the ball. 
+}// class Ball

@@ -1,0 +1,4 @@
+// Representation of a container of balls for the lottery,
+public class BallContainer {
+
+}

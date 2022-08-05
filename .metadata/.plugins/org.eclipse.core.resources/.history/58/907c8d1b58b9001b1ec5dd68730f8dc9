@@ -1,0 +1,6 @@
+// Representation of a lottery machine, 
+// with the facility for a randomly chosen ball to be ejected.
+public class Machine extends BallContainer 
+{
+
+}// class Machine

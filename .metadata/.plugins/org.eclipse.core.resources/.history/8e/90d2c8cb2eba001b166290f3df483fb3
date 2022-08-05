@@ -1,0 +1,13 @@
+
+public class StockItemPurchaseRequest  
+{
+	private StockItem stockItem;
+	private int quantity;
+	
+	public StockItemPurchaceRequest(StockItem requiredStockItem, int requiredQuantity)
+	{
+		stockItem = requiredStockItem;
+		quantity = requiredQuantity;
+	}
+	
+}

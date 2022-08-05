@@ -1,0 +1,28 @@
+
+public class StockItemPurchaseRequest  
+{
+	private StockItem stockItem;
+	private int quantity;
+	
+	public StockItemPurchaseRequest(StockItem requiredStockItem, int requiredQuantity)
+	{
+		stockItem = requiredStockItem;
+		quantity = requiredQuantity;
+	}
+	
+	public StockItem getStockItem()
+	{
+		return stockItem;
+	}
+	
+	public int getQuantity()
+	{
+		return quantity;
+	}
+	
+	public String toString()
+	{
+		return stockItem.getDescription();
+	}
+	
+}

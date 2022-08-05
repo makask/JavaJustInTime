@@ -1,0 +1,17 @@
+// Representation of a lottery machine, 
+// with the facility for a randomly chosen ball to be ejected.
+public class Machine extends BallContainer 
+{
+	// Constructor is given the name and size.
+	public Machine(String name, int size)
+	{
+		super(name, size);
+	}// Machine
+	
+	// Returns the name of the type of BallContainer
+	public String getType()
+	{
+		
+	}// getType
+
+}// class Machine

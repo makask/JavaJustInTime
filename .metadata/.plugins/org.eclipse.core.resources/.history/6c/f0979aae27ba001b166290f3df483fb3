@@ -1,0 +1,20 @@
+
+public class MouseMat extends TextDescriptionStockItem {
+	
+	public MouseMat(String description, int initialPriceExVat, int initialQuantityInStock)
+	{
+		super(description,initialPriceExVat,initialQuantityInStock);
+	}// MouseMat
+	
+	public String getStockType()
+	{
+		return "Mouse mat";
+	}// getStockType
+	
+	public double getVatRate()
+	{
+		return 16.0;
+	}// getVatRate
+	
+	
+}// class MouseMat

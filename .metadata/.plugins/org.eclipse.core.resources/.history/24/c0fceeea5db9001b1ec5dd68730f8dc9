@@ -1,0 +1,5 @@
+// Representation of a lottery game, comprising a machine and a rack.
+public class Game 
+{
+
+}// class Game

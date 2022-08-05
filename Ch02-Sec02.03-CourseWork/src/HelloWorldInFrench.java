@@ -1,0 +1,6 @@
+
+public class HelloWorldInFrench {
+	public static void main(String[]args) {
+		System.out.println("Bonjour le monde!");
+	}
+}

@@ -1,0 +1,7 @@
+// Representation of a container of balls for the lottery,
+// with a fixed size and zero or more balls in a certain order.
+public abstract class BallContainer 
+{
+	// The name of the BallContainer.
+	private final String name;
+}// class BallContainer

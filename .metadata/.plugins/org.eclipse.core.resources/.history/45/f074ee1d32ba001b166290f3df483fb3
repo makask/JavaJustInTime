@@ -1,0 +1,26 @@
+
+public class ShoppingBasket 
+{
+	private static final int INITIAL_ARRAY_SIZE = 2;
+	private static final int ARRAY_RESIZE_FACTOR = 2;
+	private StockItemPurchaseRequest[] requestItems = new StockItemPurchaseRequest[INITIAL_ARRAY_SIZE];
+	private int shoppingItemAmount = 0;
+	
+	public ShoppingBasket()
+	{
+		
+	}
+	
+	public void add(StockItem item, int amount)
+	{
+		if(amount == requestItems.length)
+		{
+			StockItemPurchaseRequest[] biggerArray = new StockItemPurchaseRequest[requestItems.length * ARRAY_RESIZE_FACTOR];
+			for(int index1 = 0; index1 < requestItems.length;index1++)
+				biggerArray[index1] = requestItems[index1];
+			requestItems = biggerArray;
+			shoppingItemAmount++;
+		}
+	}
+	
+}

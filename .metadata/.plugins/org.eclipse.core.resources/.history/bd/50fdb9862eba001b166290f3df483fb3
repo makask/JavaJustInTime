@@ -1,0 +1,8 @@
+
+public class StockItemPurchaseRequest  
+{
+	private StockItem stockItem;
+	private int quantity;
+	
+	
+}

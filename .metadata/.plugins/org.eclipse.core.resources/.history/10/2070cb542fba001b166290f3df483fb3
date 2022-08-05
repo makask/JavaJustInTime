@@ -1,0 +1,12 @@
+
+public class ShoppingBasket 
+{
+	private StockItemPurchaseRequest[] requestItems;
+	private int basketSize = 10;
+	
+	public ShoppingBasket()
+	{
+		
+	}
+	
+}

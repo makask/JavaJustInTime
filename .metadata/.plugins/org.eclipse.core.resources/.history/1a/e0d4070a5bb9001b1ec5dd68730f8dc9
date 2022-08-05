@@ -1,0 +1,8 @@
+// Representation of a landing rack of balls for the lottery, 
+// with the facility for them to be sorted into order,
+// and another to determine if it contains a ball of a given value.
+public class Rack extends BallContainer 
+{
+	// Constructor is given the name an size. 
+
+}// class Rack

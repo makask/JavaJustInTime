@@ -1,0 +1,13 @@
+
+public class ShoppingBasket 
+{
+	private StockItemPurchaseRequest[] requestItems;
+	private int basketSize = 10;
+	private int arrayReziseFactor = 2;
+	
+	public ShoppingBasket()
+	{
+		
+	}
+	
+}

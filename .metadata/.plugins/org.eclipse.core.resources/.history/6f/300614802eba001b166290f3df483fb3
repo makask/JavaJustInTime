@@ -1,0 +1,6 @@
+
+public class StockItemPurchaseRequest  
+{
+	private final StockItem[]stockItems;
+	private int quantity;
+}

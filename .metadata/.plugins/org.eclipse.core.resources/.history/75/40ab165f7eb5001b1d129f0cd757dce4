@@ -1,0 +1,24 @@
+import java.awt.Color;
+
+// Representation of a lotery ball, comprising colour and value.
+public class Ball 
+{
+	// The numeric value of the ball. 
+	private final int value;
+	
+	// The colour of the ball.
+	private final Color colour;
+	
+	// A ball is constructed by giving a number and a colour.
+	public Ball(int requiredValue, Color requiredColour)
+	{
+		value = requiredValue;
+		colour = requiredColour;
+	}// Ball
+	
+	// Returns the numeric value of the ball.
+	public int getValue()
+	{
+		return value;
+	}
+}// class Ball
